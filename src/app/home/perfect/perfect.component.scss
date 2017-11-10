@@ -1,0 +1,41 @@
+@import"../../app.component.scss";
+.pixel-perfect
+{
+    background-color: #353442;
+    height: 650px;
+    margin-top: 40px; 
+    
+    
+}
+.pixel-perfect {
+    h2{
+    padding-top: 140px;
+    color: $white;
+    margin-left: 70px;
+    }
+}
+
+.perfect{
+    .pixel-perfect{
+        p{
+        
+        @include UseMixin();
+        }
+    }
+}
+
+.perfect{
+    .pixel-perfect{
+        .button-perfect
+        {
+            width: 150px;
+            height: 50px;
+            background-color: $red;
+            border: $n;
+        }
+    }
+}
+.home-new
+{
+    @include home();
+}

@@ -1,0 +1,45 @@
+@import"../../app.component.scss";
+
+.blocks
+{
+    .page-blocks
+    {
+        .block
+        {
+            background-color: #f7f7f7 !important;
+            height: 250px;
+            width: 300px;
+            margin-right: 20px;
+        }
+    }
+}
+.page-content {
+    .page-blocks{
+    margin-left: 25px;
+    height: 300px;
+    text-align: center;
+    }
+}
+.page-blocks 
+{
+    position: relative;
+    bottom: 100px;
+}
+.page-blocks {
+    i{
+    padding-top: 32px;
+    color: $red;
+    }
+}
+.page-blocks {
+    p{
+    font-family: 'Source Sans Pro';
+    font-weight: bolder;
+    }
+}
+.page-blocks {
+    h3{
+    color: #747474;
+    }
+}
+

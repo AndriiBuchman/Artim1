@@ -1,0 +1,68 @@
+@import"../../app.component.scss";
+
+.second-title {
+    font-family: 'Raleway';
+    font-weight: 500;
+    color: #262626;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 70px;
+}
+.picture-container{
+    height: 300px;
+    
+}
+.picture1{
+    height: 270px;
+    width: 400px;
+}
+.button-catalogue{
+    padding-top: 25px;
+    
+}
+.button-catalogue{
+    i{
+    float: right;
+    padding-right: 15px;
+    color: $white;
+    }
+}
+.button-contact {
+    i{
+    float: right;
+    color: $white;
+    padding-right: 15px;
+    }
+}
+.picture {
+    span{
+    padding-left: 50px;
+    color: $white;
+    margin: 0 auto;
+    }
+}
+.button3{
+    height: 70px;
+    width: 400px;
+    background-color: $red;
+    border: none;
+    vertical-align: middle;
+}
+.button-contact{
+    margin-top: 25px;
+}
+.picture p{
+    color:#747474;
+    font-size: 20px;
+    font-family: 'Raleway';
+}
+.picture {
+    h4{
+    color: #747474;
+    font-weight: bolder;
+    }
+}
+.perfect{
+    height: 700px;
+    padding-top: 120px;
+}

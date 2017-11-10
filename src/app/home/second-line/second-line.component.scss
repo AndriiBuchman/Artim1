@@ -1,0 +1,41 @@
+@import"../../app.component.scss";
+.second-line{
+    height: 150px;
+    background-color: #353442;
+}
+.block {
+    .fa{
+    color: $red;
+    }
+}
+.button2{
+    height: 50px;
+    width: 150px;
+    color: $white;
+    background-color: $red;
+    border:none
+    
+}
+.text1{
+    float: left;
+    padding-left: 15px;
+    color: $red;
+}
+.line-block{
+    padding-left: 25px;
+    padding-top: 30px;
+}
+.line-block {
+    i{
+    padding-top: 20px;
+    }
+}
+
+.button2{
+    float: right;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+.color-text-white{
+    color: $white;
+}

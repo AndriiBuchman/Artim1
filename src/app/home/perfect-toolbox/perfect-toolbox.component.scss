@@ -1,0 +1,57 @@
+@import"../../app.component.scss";
+
+.home-new{
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+}
+.pixel-photo{
+    margin-left: 0px;
+}
+.perfect-toolbox{
+    margin-left: 30px;
+    padding-left: 50px;
+    width: 100%;
+    padding-top: 50px;
+    
+}
+
+.toolbox-text {
+    h2{
+    font-weight: lighter;
+    color: #747474;
+    padding-bottom: 20px;
+    }
+}
+.toolbox-text {
+    p{
+    margin-top: 10px;
+    color: #747474;
+    font-family: 'Raleway';
+    font-size: 13pt;
+    padding-right: 50px;
+    margin-right: 20px;
+    font-weight: 100;
+    }
+}
+.perfect-toolbox {
+    .fa{
+    color:$red;
+    }
+}
+.fire-text{
+    i{
+    float: left;
+    padding-top: 10px;
+    }
+}
+.magic-block{
+    padding-top: 15px;
+}
+.fire-text-h2-p{
+    padding-left: 50px;
+    padding-right: 110px;
+    color: #747474;
+    font-size: 15px;
+}
+
