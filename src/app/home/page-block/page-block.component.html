@@ -2,7 +2,15 @@
             <section class = "blocks">
                 <div class = "container-fluid">
                     <div class = "page-blocks row ">
-                        <div class = "block col-md-3">
+                        <div *ngFor='let block of myarray'  [class]="block.className">
+                            
+                            <i [class] =  "block.clName" ></i>
+                            <h3> {{ block.title }}</h3>
+                            <p> {{ block.text }}</p>
+                            
+                        </div> 
+                        
+                        <!--<div class = "block col-md-3">
                             <i class = "fa fa-filter fa-4x"></i>
                             <h3>Easy To Use</h3>
                             <p>Banjo post-ironic master cleanse hoodie plaid put a bird</p>
@@ -21,7 +29,7 @@
                             <i class = "fa fa-signal fa-4x"></i>
                             <h3>How We Work</h3>
                             <p>Etsy, locavore Shoreditch twee whatever messenger.</p>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
             </section>

@@ -16,7 +16,18 @@
                             </p>
                         </div>
                         <div class="toolbox1-block1 col-md-4">
-                            <div class="fire-block row">
+                            <div *ngFor='let block of myArray' [class]="block.cl" >
+                                
+                                    <div [class]="block.myClass">
+                                        <i [class]="block.image1"></i>
+                                    </div>
+                                    <div [class]="block.myClass1">
+                                        <h3>{{block.title}}</h3>
+                                        <p>{{block.text}}</p>
+                                    </div>
+                                
+                            </div>
+                            <!--<div class="fire-block row">
                                 <div class="fire-text">
                                     <i class = "fa fa-fire fa-3x" ></i>
                                 </div>
@@ -29,7 +40,7 @@
                                 </div>
 
                             </div>
-                            <div class="magic-block row">
+                            <div class="fire-block row">
                                 <div class="fire-text">
                                     <i class = "fa fa-magic fa-3x" ></i>
                                 </div>
@@ -46,11 +57,22 @@
 
                                     </p>
                                 </div>
-                            </div>
+                            </div>-->
                         </div>
                         
                         <div class="toolbox1-block2 col-md-4" >
-                            <div class="fire-block row">
+                            <div *ngFor='let block of myArray1' [class]="block.cl" >
+                                
+                                    <div [class]="block.myClass">
+                                        <i [class]="block.image1"></i>
+                                    </div>
+                                    <div [class]="block.myClass1">
+                                        <h3>{{block.title}}</h3>
+                                        <p>{{block.text}}</p>
+                                    </div>
+                                
+                            </div>
+                            <!--<div class="fire-block row">
                                 <div class="fire-text">
                                     <i class = "fa fa-laptop fa-3x" ></i>
                                 </div>
@@ -74,6 +96,6 @@
                                     </p>
                                 </div>
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
